@@ -1,0 +1,20 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/* the asterix allows to choose all elements within the document, best used to apply background colour to your webpage */
+*{
+background-color: aqua;
+
+
+}
+/* if you use an element selector, the styling will apply to all elements with the same tag e.g. <p> will apply css to all <p> elements */
+p{
+color: red;
+}
+#para2{
+    color: yellow;
+}
+/* selecting multiple different elements to apply css to */
+h3, div, h1, p{
+font-family: "PT Sans", sans-serif
+
+}
